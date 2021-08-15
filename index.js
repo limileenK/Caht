@@ -1,5 +1,5 @@
 const app = require('express')
-const PORT = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 const { timeStamp } = require('console');
@@ -46,6 +46,6 @@ io.on("connection", socket => {
 })
 
 
-http.listen(PORT, function () {
+http.listen(port, function () {
   console.log('listening on port 4000')
 })
