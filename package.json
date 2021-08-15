@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
+   
     "start": "node index.js"
-  },
-  "engines": {
-    "node": "v12.18.0",
-    "npm": "6.14.4"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +15,9 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.2",
     "socketio": "^1.0.0"
+  },
+  "engines": {
+    "node": "v12.18.0",
+    "npm": "6.14.4"
   }
 }
