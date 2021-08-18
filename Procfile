@@ -1,1 +1,0 @@
-wed: deno run --allow-net --allow-read --cached-only index.js --port=${PORT}
